@@ -8,7 +8,7 @@ slug: /itoolkit
 [Package Detail] https://www.npmjs.com/package/itoolkit <br/>
 [Document] https://nodejs-itoolkit.readthedocs.io/en/latest
 
-```jsx
+```powershell
 npm install itoolkit
 ```
 
