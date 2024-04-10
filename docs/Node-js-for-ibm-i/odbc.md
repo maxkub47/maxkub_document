@@ -1,5 +1,6 @@
 ---
 id: 1
+sidebar_position: 1
 title: ODBC for IBM i
 description: An asynchronous interface for Node.js to unixODBC and its supported drivers.
 slug: /node-js/odbc-for-i

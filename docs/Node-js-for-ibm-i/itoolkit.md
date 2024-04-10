@@ -1,5 +1,6 @@
 ---
 id: 2
+sidebar_position: 2
 title: itoolkit
 description: itoolkit is a Node.js interface to XMLSERVICE to access all things IBM i.
 slug: /node-js/itoolkit
