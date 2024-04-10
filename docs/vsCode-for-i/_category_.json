@@ -1,6 +1,6 @@
 {
   "label": "VS Code for IBM i",
-  "position": 4,
+  "position": 40,
   "link": {
     "type": "generated-index",
     "description": "IBM i development extension for VS Code"

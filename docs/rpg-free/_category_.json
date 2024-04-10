@@ -1,6 +1,6 @@
 {
   "label": "RPG Free Format",
-  "position": 5,
+  "position": 50,
   "link": {
     "type": "generated-index",
     "description": "IBM i development extension for VS Code"
