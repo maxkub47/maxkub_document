@@ -2,6 +2,7 @@
 id: 3
 sidebar_position: 3
 title: Mapping Cert in Application Server
+slug: /mapping-cert-in-application-server
 ---
 
 ### in version V7R2

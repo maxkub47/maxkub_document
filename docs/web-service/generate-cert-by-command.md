@@ -2,6 +2,7 @@
 id: 4
 sidebar_position: 4
 title: Generate Certifiacate by Command
+slug: /generate-cert-by-command
 ---
 
 Ref. Doc : [Download](../assets/Create%20local%20cert%20from%20redhat%20,%20AS400%20and%20config%20https%20revise.xls)
