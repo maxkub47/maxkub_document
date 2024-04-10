@@ -2,7 +2,7 @@
 id: 2
 sidebar_position: 2
 title: Create Local Cert and Mapping
-slug: /create-local-cert
+slug: /web-service/create-local-cert
 ---
 
 [link to Digital Certificate Manager]http://172.16.1.240:2001/QIBM/ICSS/Cert/Admin/qycucm1.ndm/main0

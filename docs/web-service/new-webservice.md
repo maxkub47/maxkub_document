@@ -2,7 +2,7 @@
 id: 1
 sidebar_position: 1
 title: New Web Service
-slug: /new-web-service
+slug: /web-service/new-web-service
 ---
 
 [Link to Navigator for i] http://172.16.1.240:2004/ibm/console/logon.jsp <br/>

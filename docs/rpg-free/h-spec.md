@@ -2,7 +2,7 @@
 id: 1
 sidebar_position: 1
 title: Spec
-slug: /spec
+slug: /rpg-free/spec
 ---
 
 ## Spec H

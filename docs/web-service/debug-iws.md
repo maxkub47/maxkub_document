@@ -2,7 +2,7 @@
 id: 5
 sidebar_position: 5
 title: Debug Web Service
-slug: /debug-web-service
+slug: /web-service/debug-web-service
 ---
 
 ## How to display job log after run web service

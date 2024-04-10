@@ -2,7 +2,7 @@
 id: 2
 sidebar_position: 2
 title: Structure
-slug: /declear-field
+slug: /rpg-free/declare-field
 ---
 
 ### declare field
