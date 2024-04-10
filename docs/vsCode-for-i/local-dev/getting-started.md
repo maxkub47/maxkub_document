@@ -1,0 +1,122 @@
+---
+title: Getting started
+sidebar_position: 2
+---
+
+It is possible for the user to develop in a local workspace folder and deploy+compile on IBM i.
+
+If the user opens a Workspace before connecting to an IBM i:
+
+1. A new information messgae will show the user what their current library is,
+2. If this is the first time connecting with this workspace, it will
+   - prompt the user to set a default Deploy directory,
+   - if no `actions.json` file is found will ask the user if they'd like to create a default
+3. a new right-click option will appear on IFS directories to deploy to that directory
+4. a 'Deploy' button will appear on the status bar
+
+## Guides
+
+- This step-by-step guide [in the rpg-git-book](https://worksofliam.github.io/rpg-git-book/7-tooling-vscode.html)
+- A [video tutorial on YouTube](https://www.youtube.com/watch?v=XuiGyWptgDA&t=425s), showing the setup from scratch.
+- Easily cloning from [Azure DevOps](../azure).
+
+## 1. Opening a Workspace Folder
+
+Opening a folder in Visual Studio Code adds that folder to that Workspace. You need at least one folder open in the Visual Studio Code workspace for local development.
+
+## 2. Setting the deploy location
+
+If it is the first time connecting with the workspace it will prompt the user to set a default Deploy directory.
+
+![](../img/local_1.png)
+
+If you would prefer to change the default location, the user can right-click on any directory in the IFS Browser and select the 'Deploy Workspace to location' option.
+
+The user can change the deploy directory at any by using the same right-click option on another directory.
+
+## 3. Deployment
+
+### Running the deployment
+
+Using the `Deploy` button on the status bar will start the deployment process. If the workspace has more than one folder, the user will have to select which folder they want to deploy.
+![](../img/deploy_01.png)
+
+Running the deployment will prompt the user to chose a deployment method amongst the [five possible options](#deployment-methods), unless a default method has been selected in the [connection settings](#setting-the-default-deployment-method).
+![](../img/deploy_02.png)
+
+### Deployment methods
+
+#### Working Changes
+
+This only works if the chosen workspace folder is a git repository. Code for IBM i will look at the git status to determine the files that have been changed since the last commit (unstaged and staged) and only uploads those files.
+
+#### Staged Changes
+
+The same as the `Working Changes` option, but only uploads staged / indexed files.
+
+#### All
+
+Will upload all files in the chosen workspace folder.
+
+#### Changes
+
+Will upload only files that VSCode knows have changed in the workspace since the last deploy.
+
+#### Compare
+
+Will compare every file in the local workspace against the deploy location and upload only those detected as different (by means of MD5 checksums). This is also the only method that will delete files from the deploy location, if they have been removed from the local workspace folder.
+
+The user can also define Actions that are for the 'file' (local) type to run the deploy before running the Action.
+
+### Setting the default deployment method
+
+Open the connection settings, go to the `Source Code` tab and select the default deployment method to apply when running a deployment.
+![](../img/deploy_03.png)
+
+### Ignore files during deployment with `.gitignore` and `.deployignore`
+
+All the deployment methods will take into account the `.gitignore` file and they will not deploy files matching the patterns defined in it.
+
+For example, this pattern, if put in `.gitignore`, will prevent all the files under the project's `images` and `assets` folders from being deployed:
+
+```
+images/**
+assets/**
+```
+
+In case the patterns to ignore files during the deployment must be different from those found in `.gitignore`, a `.deployignore` file can be put at the root of the workspace folder. It will superseds `.gitignore` during the deployment to ignore files. `.deployignore` uses the same patterns as `.gitignore`.
+
+## 4. Workspace Actions (deploy & build)
+
+Similar to other repository settings, users can now store Actions as part of the Workspace. Users can now create `.vscode/actions.json` inside of your Workspace, and can contain Actions that are specific to that Workspace. That configuration file should also be checked into git for that application.
+
+There is a tool that can generate an initial `actions.json` file for you. After connecting to a system, open the command palette (F1) and search for 'Launch Actions Setup'. This shows a multi-select window where the user can pick which technologies they're using. Based on the selection, an `actions.json` will be created.
+
+![](../img/actions_tool.png)
+
+##
+
+Here is an example `actions.json` setup, which requires deployment to happen before triggering BoB. VS Code will prompt content assist when working with `actions.json`. You could replace BoB with any build system here (e.g. make, or perhaps a vendor-specific tool.).
+
+```json
+[
+  {
+    "name": "Deploy & build with ibmi-bob 🔨",
+    "command": "error=*EVENTF lib1=&CURLIB makei -f &BASENAME",
+    "extensions": ["GLOBAL"],
+    "environment": "pase",
+    "deployFirst": true
+  },
+  {
+    "name": "Deploy & build with GNU Make 🔨",
+    "command": "/QOpenSys/pkgs/bin/gmake &BASENAME BIN_LIB=&CURLIB",
+    "extensions": ["GLOBAL"],
+    "environment": "pase",
+    "deployFirst": true
+  }
+]
+```
+
+Now, when the user runs an Action against the local file (with `Control/Command + E`), they will appear in the list.
+
+![image](https://user-images.githubusercontent.com/3708366/146957104-4a26b4ba-c675-4a40-bb51-f77ea964ecf5.png)
