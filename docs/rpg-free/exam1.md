@@ -5,6 +5,8 @@ title: Example 1
 slug: /rpg-free/exam1
 ---
 
+Refference (https://developer.ibm.com/tutorials/i-rest-web-services-server3/)
+
 ```RPGLE
 ctl-opt nomain
         pgminfo(*PCML:
