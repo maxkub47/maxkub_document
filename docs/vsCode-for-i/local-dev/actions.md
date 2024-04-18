@@ -4,7 +4,7 @@ sidebar:
     order: 4 
 ---
 
-import { Tabs, TabItem } from '@astrojs/starlight/components';
+
 
 Similar to other repository settings, users can now store Actions as part of the Workspace. Users can now create `.vscode/actions.json` inside of your Workspace, and can contain Actions that are specific to that Workspace. That configuration file should also be checked into git for that application.
 
@@ -33,7 +33,7 @@ These variables can be used for local development. They can be referenced in `ac
 | `&LOCALPATH`    | The full path to the file on the local machine                                    |
 | `&FULLPATH`     | The full path to the file on the remote machine                                   |
 | `&WORKDIR`      | The working directory. Typically this means the deploy directory                  |
-| `&FILEDIR`      | The directory of the file on the remote machine                                   | 
+| `&FILEDIR`      | The directory of the file on the remote machine                                   |
 | `&PARENT`       | The local parent directory                                                        |
 | `&BASENAME`     | The basename of the file (`name.ext`). Can also use `{filename}`                  |
 | `&NAME`         | The name of the file (or use `&NAMEL` for lowercase)                              |
@@ -77,7 +77,7 @@ You will see the output:
 Current library: USERLIB
 Library list: QDEVTOOLS SAMPLE
 Commands:
-		chmod +x ./myscript.sh && ./myscript.sh
+  chmod +x ./myscript.sh && ./myscript.sh
 
 Welcome
 The current library is USERLIB
@@ -145,9 +145,6 @@ The `&BRANCHLIB` variable will always start with `VS` followed by a deterministi
 
 When you are compiling local sources using `"environment": "ile"`, then it will use the User Library List for the job. You can use the `CURLIB` and `LIBL` variables to override them. This is useful because then it allows project-specific library lists.
 
-<Tabs>
-<TabItem label="actions.json">
-
 ```json
 [
   {
@@ -162,14 +159,8 @@ When you are compiling local sources using `"environment": "ile"`, then it will 
 ]
 ```
 
-</TabItem>
-<TabItem label=".env">
-
 ```sh
 # developer A:
 CURLIB=BLDLIB
 LIBL=MYDB SAMPLE SYSTOOLS
 ```
-
-</TabItem>
-</Tabs>

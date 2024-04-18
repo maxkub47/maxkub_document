@@ -28,7 +28,7 @@ See **Help** in the menu for tips, tricks, editing keyboard shortcuts and tutori
 
 ### Source dates
 
-Source date support must be enabled and is disabled by default. This can be changed in the Connection Settings. See more on the [Source Dates page](../sourcedates/).
+Source date support must be enabled and is disabled by default. This can be changed in the Connection Settings. See more on the [Source Dates page](./sourcedates/).
 
 ## Compiling
 
