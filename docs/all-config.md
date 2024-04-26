@@ -3,7 +3,7 @@ sidebar_position: 11
 title: All Config
 ---
 
-## VPS
+## VPS and EDUWeb
 
 VPN Program [Download](https://www.leagsoft.com/doc/article/103197.html)
 
@@ -14,6 +14,10 @@ VPN Program [Download](https://www.leagsoft.com/doc/article/103197.html)
 #### VPS Management
 
 > `Link :` https://10.200.123.254 <br/> `User :` dsgadmin <br/>`Pass :` Metro@282\_
+
+#### AS400 : EduWeb
+
+> `IP    :` 10.200.123.99 <br/> `User :` ADSOFR <br/>`Pass :` ADS400
 
 ---
 

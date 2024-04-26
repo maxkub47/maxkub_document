@@ -1,7 +1,7 @@
 ---
 id: 3
 sidebar_position: 3
-title: Example 1
+title: Example_1 Student
 slug: /rpg-free/exam1
 ---
 
