@@ -1,5 +1,5 @@
 ---
-sidebar_position: 12
+sidebar_position: 13
 title: Install Opensource in IBM i
 ---
 
@@ -10,34 +10,34 @@ link : [ https://bitbucket.org/ibmi/opensource/src/20192a55b76d99a839815f61100e4
 - Download bootstrap.sh and bootstrap.tar.Z to your PC
 - Upload bootstrap.sh and bootstrap.tar.Z to your IBM i
 
-``` shell
+```shell
 scp -r ./bootstrap.sh ./bootstrap.tar.Z ibmi@192.168.1.10:/tmp
 ```
 
 - From a 5250 terminal run the following.
 
-``` shell
+```shell
 QSH CMD('touch -C 819 /tmp/bootstrap.log; /QOpenSys/usr/bin/ksh /tmp/bootstrap.sh > /tmp/bootstrap.log 2>&1')
 ```
 
 - check the log file
 
-``` shell
+```shell
 cat /tmp/bootstrap.log
 ```
 
-- check the /QOpenSys/etc must found ***yum*** Use for online
-- check the /QOpenSys/pkgs/lib must found ***rpm*** Use for offine
+- check the /QOpenSys/etc must found **_yum_** Use for online
+- check the /QOpenSys/pkgs/lib must found **_rpm_** Use for offine
 - check repo for yum in /QOpenSys/etc/yum
 
-``` shell
+```shell
 cat /QOpenSys/etc/yum/repos.d/ibmi-base.repo
 ```
 
 ## Export PATH
 
-``` shell
-cd /home         *for all user profile 
+```shell
+cd /home         *for all user profile
 cd /home/max     *for user profile max
 
 touch .profile
@@ -48,7 +48,7 @@ export PATH=/QOpenSys/pkgs/lib/
 
 ## Install opensource via online
 
-``` shell
+```shell
 yum install -y opensource
 ```
 
@@ -56,7 +56,7 @@ yum install -y opensource
 
 link for download : [ https://public.dhe.ibm.com/software/ibmi/products/pase/rpms/repo-base-7.3/ppc64/ ]
 
-``` shell
+```shell
 rpm -i filename.rpm
 
 ### before unixODBC-2.3.9-1.ppc64
@@ -69,7 +69,7 @@ rpm -i unixODBC-2.3.9-1.ppc64.rpm
 
 ## Install PM2
 
-``` shell
+```shell
 npm install -g pm2
 
 ##create .PM2
@@ -83,12 +83,12 @@ PATH=/QOpenSys/pkgs/lib/nodejs20/lib/node_modules/pm2/bin:$PATH
 
 ## Text NodeJS
 
-``` shell
+```shell
 cd /www/apachedft/htdocs
 touch node.js
 ```
 
-``` javascript title='EXAMPLE'
+```javascript title='EXAMPLE'
 // server.mjs
 var http = require('http');
 
@@ -99,26 +99,26 @@ http.createServer(function(req, res) => {
 
 ```
 
-``` javascript title='EXAMPLE2'
+```javascript title='EXAMPLE2'
 // server.mjs
-import { createServer } from 'node:http';
+import { createServer } from "node:http";
 
 const server = createServer((req, res) => {
-  res.writeHead(200, { 'Content-Type': 'text/plain' });
-  res.end('Hello World!\n');
+  res.writeHead(200, { "Content-Type": "text/plain" });
+  res.end("Hello World!\n");
 });
 
 // starts a simple http server locally on port 3000
-server.listen(3000, '127.0.0.1', () => {
-  console.log('Listening on 127.0.0.1:3000');
+server.listen(3000, "127.0.0.1", () => {
+  console.log("Listening on 127.0.0.1:3000");
 });
 
 // run with `node server.mjs`
 ```
 
-### Command use
+## Command use
 
-``` shell
+```shell
 yum install -y [opensource]
 rpm -i [filename.rpm]
 ps -ef
