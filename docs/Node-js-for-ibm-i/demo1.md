@@ -1,7 +1,8 @@
 ---
 sidebar_position: 4
-title: Demo 1
+title: Demo 1 Flight
 ---
+
 ## ODBC in AS400
 
 SSH to AS400 <br/>
@@ -11,13 +12,13 @@ SSH to AS400 <br/>
 
 ## Nodejs
 
-``` env title=".env"
+```env title=".env"
 SERVER_PORT=9104
 SERVER_NAME=demo_nodejs
 CONNECTION_STRING=MAX240
 ```
 
-``` js title="server.js"
+```js title="server.js"
 const fastify = require("fastify")();
 
 require("dotenv").config();
@@ -54,7 +55,7 @@ fastify
   });
 ```
 
-``` js title="routes.js"
+```js title="routes.js"
 const loadAll = require("./loaddata");
 const getOne = require("./getByid");
 
@@ -69,7 +70,7 @@ const routes = (fastify, options, done) => {
 module.exports = routes;
 ```
 
-``` js title="loaddata.js"
+```js title="loaddata.js"
 const connection = require("./server");
 const odbc = require("odbc");
 
@@ -111,7 +112,7 @@ exports.loaddata = (req, res) => {
 };
 ```
 
-``` js title="getbyid.js"
+```js title="getbyid.js"
 const connection = require("./server");
 const odbc = require("odbc");
 
