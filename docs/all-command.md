@@ -453,11 +453,6 @@ git remote add <name> <url>
 | 7   | [**System and Hardware information**](#system-and-hardware-information) |
 | 8   | [**Search Files**](#search-files)                                       |
 | 9   | [**SSH**](#ssh)                                                         |
-| 10  | [**Vi/Vim-commands**](#vi/vim-commands)                                 |
-| 11  | [**Top/TaskManager Command**](#Top-Command)                             |
-| 12  | [**Kill Command**](#Kill-Command)                                       |
-| 13  | [**History Command**](#History-Command)                                 |
-| 14  | [**Curl Command**](#Curl-Command)                                       |
 
 ### User Information
 
@@ -1196,7 +1191,7 @@ sudo sshd service restart
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Vi/Vim-commands
+### ViVim-commands
 
 Vi editor is the most popular text editor from the early days of Unix. Whereas Vim(Vi IMproved) is an improved version of vi editor to be used in CLI (command line interface) for mainly text editing tasks in many configuration files. Some of the other alternatives are Elvis, Nvi, Nano, Joe, and Vile.
 It has two main operation modes,
@@ -1455,7 +1450,7 @@ Copy, Cut and Paste operations can be done in either Normal or visual Mode.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Top/TaskManager Command
+### Top Command
 
 top: The `top` command provides dynamic real-time viewing of the running system. It can display system summary information as well as a list of tasks currently being managed by the Linux kernel.
 
