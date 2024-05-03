@@ -37,13 +37,24 @@ cat /QOpenSys/etc/yum/repos.d/ibmi-base.repo
 ## Export PATH
 
 ```shell
-cd /home         *for all user profile
-cd /home/max     *for user profile max
+cd /QOpenSys/etc/profile         *for all user profile
+cd /home/max/.profile            *for user profile max
 
 touch .profile
 echo 'PATH=/QOpenSys/pkgs/bin:$PATH' >> .profile
 echo 'export PATH' >> .profile
 export PATH=/QOpenSys/pkgs/lib/
+```
+
+## Export PATH for Global
+
+```shell
+touch /QOpenSys/etc/profile
+setccsid 1208 /QOpenSys/etc/profile
+echo 'PATH=/QOpenSys/pkgs/bin:$PATH' >> /QOpenSys/etc/profile
+echo 'export PATH' >> /QOpenSys/etc/profile
+echo PATH=/QOpenSys/pkgs/lib/nodejsxx/lib/node_modules/pm2/bin:$PATH >> /QOpenSys/etc/profile
+echo 'export PATH' >> /QOpenSys/etc/profile
 ```
 
 ## Install opensource via online
@@ -77,22 +88,23 @@ cd /QopenSys/pkgs/lib/nodejs20/lib/node_modules/pm2/bin
 pm2 list
 
 ##set $PATH
-PATH=/QOpenSys/pkgs/lib/nodejs20/lib/node_modules/pm2/bin:$PATH
-
+echo PATH=/QOpenSys/pkgs/lib/nodejs20/lib/node_modules/pm2/bin:$PATH >> .profile
+echo 'export PATH' >> .profile
 ```
 
-## Text NodeJS
+## Test NodeJS
 
 ```shell
 cd /www/apachedft/htdocs
 touch node.js
+npm init
 ```
 
 ```javascript title='EXAMPLE'
 // server.mjs
 var http = require('http');
 
-http.createServer(function(req, res) => {
+http.createServer(function(req, res) {
   res.writeHead(200, { 'Content-Type': 'text/plain' });
   res.end('Hello World!');
 }).listen(8080);
@@ -124,4 +136,27 @@ rpm -i [filename.rpm]
 ps -ef
 kill [PID]
 yum list
+yum-config-manager
+yum-config-manager --add-repo https://public.dhe.ibm.com/software/ibmi/products/pase/rpms/repo/
 ```
+
+## Error Resovle DNS
+
+```shell
+CFGTCP
+OPTION 12 
+Set DNS
+
+or 
+Option 10 by command "ADDTCPHTE INTNETADR('129.35.224.112') HOSTNAME((public.dhe.ibm.com))"
+
+**(Recommend Opt 12)
+```
+
+![setdns](./img/SETDNS.png)
+
+## VDO Install Meeting
+
+| ตอนที่  | หัวข้อ                               | วีดีโอ                           |
+|:---:  |------------------------------------ |:-----------------------------: |
+| 1     | TCCC : Install Node and pyghon on ibm i Via Online | [https://youtu.be/n32ljoQEblI] |
