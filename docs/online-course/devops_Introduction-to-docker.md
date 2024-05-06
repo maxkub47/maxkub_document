@@ -20,7 +20,7 @@ DevSecOps เป็นแนวคิดที่จะช่วยให้อ�
 
 | ตอนที่  | หัวข้อ                               | วีดีโอ                           |
 |:---:  |------------------------------------ |:-----------------------------: |
-| 1     | Course Introduction | [] |
+| 1     | Course Introduction | [https://youtu.be/KccVAJOQRUg] |
 
 ### Get to Know Docker
 
@@ -28,44 +28,49 @@ DevSecOps เป็นแนวคิดที่จะช่วยให้อ�
 
 | ตอนที่  | หัวข้อ                               | วีดีโอ                           |
 |:---:  |------------------------------------ |:-----------------------------: |
-| 1     | What is Docker? | [] |
-| 2     | Virtual Machine or Container? | [] |
-| 3     | Where Docker can run | [] |
+| 1     | What is Docker? | [https://youtu.be/LZZPZC6BCAc] |
+| 2     | Virtual Machine or Container? | [https://youtu.be/A89AjQ0ovc8] |
+| 3     | Where Docker can run | [https://youtu.be/EBXXWosV7w4] |
 
 ### Docker Concepts: Build, Ship and Run
 
 | ตอนที่  | หัวข้อ                               | วีดีโอ                           |
 |:---:  |------------------------------------ |:-----------------------------: |
-| 1     | Docker Image | [] |
-| 2     | Docker Container & Docker Engine | [] |
-| 3     | Docker Registry | [] |
+| 1     | Docker Image | [https://youtu.be/apRAt_gGGww] |
+| 2     | Docker Container & Docker Engine | [https://youtu.be/NVSFoMqlhPI] |
+| 3     | Docker Registry | [https://youtu.be/5qBRyUyJvmU] |
 
 ### Basic Docker Commands
 
 | ตอนที่  | หัวข้อ                               | วีดีโอ                           |
 |:---:  |------------------------------------ |:-----------------------------: |
-| 1     | Docker Architecture | [] |
-| 2     | How to Install Docker | [] |
-| 3     | Docker Image Commands | [] |
-| 4     | Docker Container Commands | [] |
-| 5     | Running Docker Container | [] |
-| 6     | Utilities Commands I | [] |
-| 7     | Utilities Commands II | [] |
-| 8     | Utilities Commands III | [] |
+| 1     | Docker Architecture | [https://youtu.be/E70pRHUNEbI] |
+| 2     | Docker Image Commands | [https://youtu.be/SLiZj9PtOZQ] |
+| 3     | Docker Container Commands | [https://youtu.be/6LZy4pYFgek] |
+| 4     | Running Docker Container | [https://youtu.be/82dg5vx6GW8] |
+| 5     | Utilities Commands I | [https://youtu.be/LdSqSHE9Tq4] |
+| 6     | Utilities Commands II | [https://youtu.be/t2jR1cvMx_k] |
+| 7     | Utilities Commands III | [https://youtu.be/_1vBux2sjZU] |
 
 ### Workshop
 
 | ตอนที่  | หัวข้อ                               | วีดีโอ                           |
 |:---:  |------------------------------------ |:-----------------------------: |
-| 1     | Application Overview | [] |
-| 2     | Running Application in Docker | [] |
-| 3     | Linking Docker Containers | [] |
-| 4     | Initialize data in MongoDB (Mount volume) | [] |
+| 1     | Application Overview | [https://youtu.be/HyYWPeQSWyE] |
+| 2     | Running Application in Docker | [https://youtu.be/32wvc1WapVo] |
+| 3     | Linking Docker Containers | [https://youtu.be/HBEgogxxlhQ] |
+| 4     | Initialize data in MongoDB (Mount volume) | [https://youtu.be/Om4ngCh1yIw] |
 
 ### Docker Compose
 
 | ตอนที่  | หัวข้อ                               | วีดีโอ                           |
 |:---:  |------------------------------------ |:-----------------------------: |
-| 1     | Docker Compose I | [] |
-| 2     | Docker Compose II | [] |
-| 3     | Docker Compose III | [] |
+| 1     | Docker Compose I | [https://youtu.be/jOzfhSeiQ3o] |
+| 2     | Docker Compose II | [https://youtu.be/LH8Uh1C6GAs] |
+| 3     | Docker Compose III | [https://youtu.be/o5geNgv1c8M] |
+
+### Conclusion
+
+| ตอนที่  | หัวข้อ                               | วีดีโอ                           |
+|:---:  |------------------------------------ |:-----------------------------: |
+| 1     | Docker Compose I | [https://youtu.be/IkruK2TcpKY] |
