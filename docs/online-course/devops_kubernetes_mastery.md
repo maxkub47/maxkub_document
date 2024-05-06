@@ -20,70 +20,79 @@ title: (DevOps) Kubernetes Mastery
 
 | ตอนที่  | หัวข้อ                               | วีดีโอ                           |
 |:---:  |------------------------------------ |:-----------------------------: |
-| 1     | Instructor & Course Introduction | [] |
+| 1     | Instructor & Course Introduction | [https://youtu.be/LV-VPMAB2qg] |
 
 ### Get to Know Kubernetes
 
-| ตอนที่  | หัวข้อ                               | วีดีโอ                           |
-|:---:  |------------------------------------ |:-----------------------------: |
-| 1     | Intro to Docker | [] |
-| 2     | Intro to Kubernetes | [] |
-| 3     | Architecture & Distribution | [] |
-| 4     | Concept I : Pods | [] |
-| 5     | Concept II : Node Port | [] |
-| 6     | Concept III : ClusterIP | [] |
-| 7     | Concept IV : Ingress | [] |
-| 8     | Concept V : Labels and Selectors | [] |
-| 9     | Manifest File | [] |
+| ตอนที่  | หัวข้อ                               |
+|:---:  |------------------------------------ |
+| 1     | Intro to Docker |
+| 2     | Intro to Kubernetes |
+| 3     | Architecture & Distribution |
+| 4     | Concept I : Pods |
+| 5     | Concept II : Node Port |
+| 6     | Concept III : ClusterIP |
+| 7     | Concept IV : Ingress |
+| 8     | Concept V : Labels and Selectors |
+| 9     | Manifest File |
+
+VDO : [https://youtu.be/yAtHXdZXN-4]
 
 ### Introduction to Helm
 
-| ตอนที่  | หัวข้อ                               | วีดีโอ                           |
-|:---:  |------------------------------------ |:-----------------------------: |
-| 1     | Intro to Helm | [] |
-| 2     | Helm | [] |
-| 3     | Helm Structure | [] |
+| ตอนที่  | หัวข้อ                               |
+|:---:  |------------------------------------ |
+| 1     | Intro to Helm |
+| 2     | Helm |
+| 3     | Helm Structure |
+
+VDO : [https://youtu.be/xVZIDfOb09w]
 
 ### Best Practise
 
-| ตอนที่  | หัวข้อ                               | วีดีโอ                           |
-|:---:  |------------------------------------ |:-----------------------------: |
-| 1     | Health Check | [] |
-| 2     | Resource Request and Limit | [] |
-| 3     | Ingress with TLS | [] |
-| 4     | Kubernetes Troubleshooting | [] |
-| 5     | Kubernetes Persistent Volume I | [] |
-| 6     | Kubernetes Persistent Volume II | [] |
-| 7     | Kubernetes Persistent Volume III | [] |
-| 8     | Kubernetes Persistent Volume Claim I | [] |
-| 9     | Kubernetes Persistent Volume Claim II | [] |
+| ตอนที่  | หัวข้อ                               |
+|:---:  |------------------------------------ |
+| 1     | Health Check |
+| 2     | Resource Request and Limit |
+| 3     | Ingress with TLS |
+| 4     | Kubernetes Troubleshooting |
+| 5     | Kubernetes Persistent Volume I |
+| 6     | Kubernetes Persistent Volume II |
+| 7     | Kubernetes Persistent Volume III |
+| 8     | Kubernetes Persistent Volume Claim I |
+| 9     | Kubernetes Persistent Volume Claim II |
+
+VDO :  [https://youtu.be/CLGraHRpO7g]
 
 ### Workshop
 
+- ไฟล์สำหรับ Workshop : [https://drive.google.com/file/d/1LV662UyNwQDLTWMPLravbyFEhePTs7ZE/view]
+- ดูวิธีการเข้าใช้งาน google cloud : [https://cloud.google.com/kubernetes-engine/docs/deploy-app-cluster]
+
 | ตอนที่  | หัวข้อ                               | วีดีโอ                           |
 |:---:  |------------------------------------ |:-----------------------------: |
-| 1     | Workshop Overview | [] |
-| 2     | Prerequisite | [] |
-| 3     | Preparation | [] |
-| 4     | Kubernetes Command Line I | [] |
-| 5     | Kubernetes Command Line II | [] |
-| 6     | Kubernetes Command Line III | [] |
-| 7     | Kubernetes Command Line IV | [] |
-| 8     | Kubernetes Manifest File I | [] |
-| 9     | Kubernetes Manifest File II | [] |
-| 10    | Deploy Rating Service on K8s I | [] |
-| 11    | Deploy Rating Service on K8s II | [] |
-| 12    | Deploy MongoDB with Helm I | [] |
-| 13    | Deploy MongoDB with Helm II | [] |
-| 14    | Deploy MongoDB with Helm III | [] |
-| 15    | Deploy MongoDB with Helm IV | [] |
-| 16    | Convert Rating Service to Helm Chart I | [] |
-| 17    | Convert Rating Service to Helm Chart II | [] |
-| 18    | Convert Rating Service to Helm Chart III | [] |
-| 19    | Convert Rating Service to Helm Chart IV | [] |
+| 1     | Workshop Overview | [https://youtu.be/cFsueWb-XeE] |
+| 2     | Prerequisite | [https://youtu.be/fy_7NS8nRTM] |
+| 3     | Preparation | [https://youtu.be/EKT_o6wUKU0] |
+| 4     | Kubernetes Command Line I | [https://youtu.be/NHkU9uDy-_w] |
+| 5     | Kubernetes Command Line II | [https://youtu.be/UfeSkeM9ghA] |
+| 6     | Kubernetes Command Line III | [https://youtu.be/VrEO5ElK5m0] |
+| 7     | Kubernetes Command Line IV | [https://youtu.be/e9W0FbaFscE] |
+| 8     | Kubernetes Manifest File I | [https://youtu.be/JyZQY19CZlY] |
+| 9     | Kubernetes Manifest File II | [https://youtu.be/VIZGRlPq7JM] |
+| 10    | Deploy Rating Service on K8s I | [https://youtu.be/VZCEMpiScng] |
+| 11    | Deploy Rating Service on K8s II | [https://youtu.be/ty5B0d6m4rg] |
+| 12    | Deploy MongoDB with Helm I | [https://youtu.be/QtMFHN5JCFU] |
+| 13    | Deploy MongoDB with Helm II | [https://youtu.be/ijzgYunAq80] |
+| 14    | Deploy MongoDB with Helm III | [https://youtu.be/SI5B_FdTiNs] |
+| 15    | Deploy MongoDB with Helm IV | [https://youtu.be/lYkDOIxf7iI] |
+| 16    | Convert Rating Service to Helm Chart I | [https://youtu.be/34lcstRsWA4] |
+| 17    | Convert Rating Service to Helm Chart II | [https://youtu.be/CSrzHCbomos] |
+| 18    | Convert Rating Service to Helm Chart III | [https://youtu.be/WrDLi6SG2rI] |
+| 19    | Convert Rating Service to Helm Chart IV | [https://youtu.be/97VcU98OBp0] |
 
 ### Conclusion
 
 | ตอนที่  | หัวข้อ                               | วีดีโอ                           |
 |:---:  |------------------------------------ |:-----------------------------: |
-| 1     | Conclusion | [] |
+| 1     | Conclusion | [https://youtu.be/8SwG3UKeYc8] |
