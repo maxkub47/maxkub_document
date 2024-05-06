@@ -74,7 +74,7 @@ VDO : [https://youtu.be/5sJ5UPWc4q0]
 | 7     | Docker: Build, Ship, Run |
 | 8     | What is Kubernetes? |
 | 9     | Distributions of Kubernetes and Related Technologies |
-| 10     | Infrastructure Automation |
+| 10    | Infrastructure Automation |
 
 VDO : [https://youtu.be/tikypz8plRE]
 
@@ -116,9 +116,9 @@ VDO : [https://youtu.be/zQYKLo-n2UY]
 | 10    | DevOps Learning Path |
 | 11    | Demo |
 
-VDO Part I   : [https://youtu.be/pJwBpBJIxEY]
-VDO Part II  : [https://youtu.be/NdMA-kf_GKE]
-VDO Part III : [https://youtu.be/gGJtrHKKZnY]
+- VDO Part I   : [https://youtu.be/pJwBpBJIxEY]
+- VDO Part II  : [https://youtu.be/NdMA-kf_GKE]
+- VDO Part III : [https://youtu.be/gGJtrHKKZnY]
 
 ### Wrap Up
 
