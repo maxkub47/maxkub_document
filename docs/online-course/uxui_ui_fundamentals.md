@@ -25,76 +25,83 @@ title: (UXUI) UI Fundamentals
 - ประยุกต์ใช้หลักการออกแบบในงาน UI ได้ และเข้าใจถึงข้อกำหนดพิเศษต่าง ๆ เช่น การออกแบบสำหรับคนตาบอด การออกแบบสำหรับการใช้งาน Offline
 - เข้าใจหลักการออกแบบหน้าตา UI ที่ดี สำหรับ Patterns ที่มีการใช้งานบ่อย เช่น หน้าเข้าสู่ระบบ หรือหน้าสมัครสมาชิก
 
+### Course Materials
+
+- [1] Introduction [Download](./Document/uxui_ui-fundamentals/[1]%20Introduction.pdf)
+- [2] UI Platforms [Download](./Document/uxui_ui-fundamentals/[2]%20UI%20Platforms.pdf)
+- [3] UI Rules [Download](./Document/uxui_ui-fundamentals/[3]%20UI%20Rules.pdf)
+- [4] From Requirement to UI [Download](./Document/uxui_ui-fundamentals/[4]%20From%20Requirement%20to%20UI.pdf)
+- [5] Accessibilty [Download](./Document/uxui_ui-fundamentals/[5]%20Accessibility.pdf)
+- [6] Case Studies [Download](./Document/uxui_ui-fundamentals/[6]%20Case%20Studies.pdf)
+
 ### Introduction
 
 | ตอนที่  | หัวข้อ                               | วีดีโอ                           |
 |:---:  |------------------------------------ |:-----------------------------: |
-| 1     | Welcome to the Class | [] |
-| 2     | Getting to Know You | [] |
-| 3     | Course Materials | [] |
-| 4     | What Makes Good UI? (Part 1) | [] |
-| 5     | What Makes Good UI? (Part 2) | [] |
-| 6     | [Recap] Good UI | [] |
-| 7     | What Will We Learn | [] |
+| 1     | Welcome to the Class | [https://youtu.be/wGrJro0nFMw] |
+| 2     | What Makes Good UI? (Part 1) | [https://youtu.be/6ajjpIuuMCg] |
+| 3     | What Makes Good UI? (Part 2) | [https://youtu.be/v0M7EHegDBs] |
+| 4     | [Recap] Good UI | [https://youtu.be/ab3eBNIMP-g] |
+| 5     | What Will We Learn | [https://youtu.be/2AtL3mdsgfo] |
 
 ### UI Platforms
 
 | ตอนที่  | หัวข้อ                               | วีดีโอ                           |
 |:---:  |------------------------------------ |:-----------------------------: |
-| 1     | Introduction | [] |
-| 2     | Website vs. Application | [] |
-| 3     | iOS vs. Android | [] |
-| 4     | Reference Sources | [] |
-| 5     | Responsive Design | [] |
-| 6     | [Demo] Responsive Design | [] |
-| 7     | Mobile First | [] |
-| 8     | UI Interaction | [] |
-| 9     | Recap | [] |
+| 1     | Introduction | [https://youtu.be/XedgXKxe_xg] |
+| 2     | Website vs. Application | [https://youtu.be/9uHBc6YgqEA] |
+| 3     | iOS vs. Android | [https://youtu.be/gRBfag6GLzk] |
+| 4     | Reference Sources | [https://youtu.be/djD5vKYW5Wg] |
+| 5     | Responsive Design | [https://youtu.be/oF5SD4FFDTs] |
+| 6     | [Demo] Responsive Design | [https://youtu.be/EryPtm8MNiU] |
+| 7     | Mobile First | [https://youtu.be/-shSy0_ONEQ] |
+| 8     | UI Interaction | [https://youtu.be/JnV6vT1oVnU] |
+| 9     | Recap | [https://youtu.be/9DkS_h2keE8] |
 
 ### UI Rules
 
 | ตอนที่  | หัวข้อ                               | วีดีโอ                           |
 |:---:  |------------------------------------ |:-----------------------------: |
-| 1     | Introduction | [] |
-| 2     | Hick’s Law | [] |
-| 3     | Gestalt Laws of Grouping | [] |
-| 4     | Aesthetic-Usability Effect | [] |
+| 1     | Introduction | [https://youtu.be/0Lj81oGUnKE] |
+| 2     | Hick’s Law | [https://youtu.be/XGVZLt3vdbM] |
+| 3     | Gestalt Laws of Grouping | [https://youtu.be/7Zpo0dvpH70] |
+| 4     | Aesthetic-Usability Effect | [https://youtu.be/HZ0gMsCuHyo] |
 
 ### From Requirements to UI
 
 | ตอนที่  | หัวข้อ                               | วีดีโอ                           |
 |:---:  |------------------------------------ |:-----------------------------: |
-| 1     | From Requirements to UI (Part I) | [] |
-| 2     | From Requirements to UI (Part II) | [] |
+| 1     | From Requirements to UI (Part I) | [https://youtu.be/5fv0Q4zztgo] |
+| 2     | From Requirements to UI (Part II) | [https://youtu.be/qQ0BaP3QhV0] |
 | 3     | Exercise | [] |
-| 4     | UI Starts before Open the App | [] |
-| 5     | Working with Teams | [] |
+| 4     | UI Starts before Open the App | [https://youtu.be/Pwat4M5OaIM] |
+| 5     | Working with Teams | [https://youtu.be/ZA441-N1qi4] |
 
 ### Accessibility
 
 | ตอนที่  | หัวข้อ                               | วีดีโอ                           |
 |:---:  |------------------------------------ |:-----------------------------: |
-| 1     | Introduction | [] |
-| 2     | Offline First | [] |
-| 3     | Color Contrast | [] |
-| 4     | Font Scale | [] |
-| 5     | Alternative Texts | [] |
-| 6     | Designing for Blindness from iPhone (Voice Over) | [] |
-| 7     | Designing for Blindness from Android (TalkBack) | [] |
+| 1     | Introduction | [https://youtu.be/cHdb0owYYoQ] |
+| 2     | Offline First | [https://youtu.be/MdP1P1WDuC4] |
+| 3     | Color Contrast | [https://youtu.be/pa_lGGZG7V0] |
+| 4     | Font Scale | [https://youtu.be/PBek1nzGIfw] |
+| 5     | Alternative Texts | [https://youtu.be/FtXwIj85zNY] |
+| 6     | Designing for Blindness from iPhone (Voice Over) | [https://youtu.be/2RAea6YqNlA] |
+| 7     | Designing for Blindness from Android (TalkBack) | [https://youtu.be/TEmoc9zg0zg] |
 
 ### Case Studies
 
 | ตอนที่  | หัวข้อ                               | วีดีโอ                           |
 |:---:  |------------------------------------ |:-----------------------------: |
-| 1     | Blank Pages | [] |
-| 2     | Registration | [] |
-| 3     | Home Pages | [] |
-| 4     | Credit Cards | [] |
-| 5     | Permission | [] |
-| 6     | Celebrate | [] |
+| 1     | Blank Pages | [https://youtu.be/8zu-VNsHx60] |
+| 2     | Registration | [https://youtu.be/nBh0-y7srz4] |
+| 3     | Home Pages | [https://youtu.be/3hEBwWi5cEc] |
+| 4     | Credit Cards | [https://youtu.be/_8EFxUSpCyI] |
+| 5     | Permission | [https://youtu.be/DG5tRGQKhCA] |
+| 6     | Celebrate | [https://youtu.be/yJei7zPn2Gk] |
 
 ### Course Summary
 
 | ตอนที่  | หัวข้อ                               | วีดีโอ                           |
 |:---:  |------------------------------------ |:-----------------------------: |
-| 1     | Course Summary | [] |
+| 1     | Course Summary | [https://youtu.be/3z81Ja8Tbvg] |
