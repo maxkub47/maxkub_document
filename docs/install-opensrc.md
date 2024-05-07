@@ -162,3 +162,69 @@ Option 10 by command "ADDTCPHTE INTNETADR('129.35.224.112') HOSTNAME((public.dhe
 | :----: | -------------------------------------------------- | :----------------------------: |
 |   1    | Metro : Install Node on ibm i Via Offline          | [https://youtu.be/4QV_ifBgXuc] |
 |   2    | TCCC : Install Node and pyghon on ibm i Via Online | [https://youtu.be/n32ljoQEblI] |
+
+## Install PHPCOM
+
+Document : [Download](./assets/Install%20PHP%20Community[56]%20%20-%20%20Read-Only.pptx)
+
+### Add Seiden Repo
+
+```bash
+yum-config-manager --add-repo https://repo.seidengroup.com/repo/stable/seiden_stable.repo
+```
+
+### PHP Installation list
+
+```text
+php-bcmath
+php-bz2
+php-calendar
+php-cli
+php-common
+php-composer
+php-ctype
+php-curl
+php-devel
+php-exif
+php-fileinfo
+php-fpm
+php-ftp
+php-gd
+php-gettext
+php-gmp
+php-ibmi
+php-iconv
+php-imagick
+php-imap
+php-intl
+php-ldap
+php-mbstring
+php-mcrypt
+php-mongodb
+php-mysqlnd
+php-odbc
+php-opcache
+php-openssl
+php-pdo
+php-pdo_dblib
+php-pear
+php-pgsql
+php-phar
+php-process
+php-readline
+php-redis
+php-soap
+php-sockets
+php-sodium
+php-sqlite3
+php-ssh2
+php-tidy
+php-tokenizer
+php-toolkit
+php-xdebug
+php-xml
+php-zendframework1
+php-zip
+php-pdo_ibm
+php-ibm_db2
+```
