@@ -102,13 +102,14 @@ npm init
 
 ```javascript title='EXAMPLE'
 // server.mjs
-var http = require('http');
+var http = require("http");
 
-http.createServer(function(req, res) {
-  res.writeHead(200, { 'Content-Type': 'text/plain' });
-  res.end('Hello World!');
-}).listen(8080);
-
+http
+  .createServer(function (req, res) {
+    res.writeHead(200, { "Content-Type": "text/plain" });
+    res.end("Hello World!");
+  })
+  .listen(8080);
 ```
 
 ```javascript title='EXAMPLE2'
@@ -144,10 +145,10 @@ yum-config-manager --add-repo https://public.dhe.ibm.com/software/ibmi/products/
 
 ```shell
 CFGTCP
-OPTION 12 
+OPTION 12
 Set DNS
 
-or 
+or
 Option 10 by command "ADDTCPHTE INTNETADR('129.35.224.112') HOSTNAME((public.dhe.ibm.com))"
 
 **(Recommend Opt 12)
@@ -157,6 +158,7 @@ Option 10 by command "ADDTCPHTE INTNETADR('129.35.224.112') HOSTNAME((public.dhe
 
 ## VDO Install Meeting
 
-| ตอนที่  | หัวข้อ                               | วีดีโอ                           |
-|:---:  |------------------------------------ |:-----------------------------: |
-| 1     | TCCC : Install Node and pyghon on ibm i Via Online | [https://youtu.be/n32ljoQEblI] |
+| ตอนที่ | หัวข้อ                                             |             วีดีโอ             |
+| :----: | -------------------------------------------------- | :----------------------------: |
+|   1    | Metro : Install Node on ibm i Via Offline          | [https://youtu.be/4QV_ifBgXuc] |
+|   2    | TCCC : Install Node and pyghon on ibm i Via Online | [https://youtu.be/n32ljoQEblI] |
