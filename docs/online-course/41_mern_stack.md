@@ -3,6 +3,8 @@ sidebar_position: 41
 title: MERN Stack
 ---
 
+![Cover](./img/Cover%20Mern-stack.png)
+
 เรียนรู้การพัฒนาเว็บแบบ MERN Stack (MongoDB , Express , React และ Node.js)
 
 ### แนะนำเนื้อหา

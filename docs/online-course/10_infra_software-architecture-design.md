@@ -3,6 +3,7 @@ sidebar_position: 10
 title: (Infra) Software Architecture Design
 ---
 
+![Cover](./img/cover_software_architecture.png)
 Software Architecture Design
 ในการออกแบบซอฟต์แวร์ขนาดใหญ่ในองค์กร มักจะมีการทำงานร่วมกันโดยคนจำนวนมาก หากเราต่างคนต่างเขียนซอฟต์แวร์ไปในทางที่ตัวเองเห็นว่าดี ซอฟต์แวร์ที่แต่ละคนทำก็อาจจะทำงานร่วมกันไม่ได้หรือมีปัญหาตอนที่ Integrate เป็น Solution ใหญ่
 
