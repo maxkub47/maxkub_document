@@ -228,3 +228,13 @@ php-zip
 php-pdo_ibm
 php-ibm_db2
 ```
+
+### Set ภาษาไทย
+
+```
+/Qopensys/etc/conf.d ibm_db2.ini
+ibm_db2.i5_override_ccsid=1
+
+/www/PHPCom/conf/fastcgi.conf
+SetEnv="CCSID=1208”
+```
