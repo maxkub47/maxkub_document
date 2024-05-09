@@ -53,7 +53,9 @@ touch /QOpenSys/etc/profile
 setccsid 1208 /QOpenSys/etc/profile
 echo 'PATH=/QOpenSys/pkgs/bin:$PATH' >> /QOpenSys/etc/profile
 echo 'export PATH' >> /QOpenSys/etc/profile
-echo PATH=/QOpenSys/pkgs/lib/nodejsxx/lib/node_modules/pm2/bin:$PATH >> /QOpenSys/etc/profile
+echo 'PATH=/QOpenSys/pkgs/lib/nodejsxx/bin:/QOpenSys/pkgs/bin:$PATH' >> /QOpenSys/etc/profile
+echo 'export PATH' >> /QOpenSys/etc/profile
+echo 'PATH=/QOpenSys/pkgs/lib/nodejsxx/lib/node_modules/pm2/bin:$PATH' >> /QOpenSys/etc/profile
 echo 'export PATH' >> /QOpenSys/etc/profile
 ```
 
@@ -97,19 +99,16 @@ echo 'export PATH' >> .profile
 ```shell
 cd /www/apachedft/htdocs
 touch node.js
-npm init
 ```
 
 ```javascript title='EXAMPLE'
 // server.mjs
 var http = require("http");
-
 http
   .createServer(function (req, res) {
     res.writeHead(200, { "Content-Type": "text/plain" });
     res.end("Hello World!");
-  })
-  .listen(8080);
+  }).listen(8080);
 ```
 
 ```javascript title='EXAMPLE2'
@@ -162,6 +161,7 @@ Option 10 by command "ADDTCPHTE INTNETADR('129.35.224.112') HOSTNAME((public.dhe
 | :----: | -------------------------------------------------- | :----------------------------: |
 |   1    | Metro : Install Node on ibm i Via Offline          | [https://youtu.be/4QV_ifBgXuc] |
 |   2    | TCCC : Install Node and pyghon on ibm i Via Online | [https://youtu.be/n32ljoQEblI] |
+|   3    | Aeon : Install Node  Via Offline | [https://youtu.be/XtUgxoVRQT8] |
 
 ## Install PHPCOM
 
@@ -231,7 +231,7 @@ php-ibm_db2
 
 ### Set ภาษาไทย
 
-```
+``` text
 /Qopensys/etc/conf.d ibm_db2.ini
 ibm_db2.i5_override_ccsid=1
 
