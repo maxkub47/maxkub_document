@@ -71,13 +71,19 @@ link for download : [ https://public.dhe.ibm.com/software/ibmi/products/pase/rpm
 
 ```shell
 rpm -i filename.rpm
+### before nodejs20-20.11.1-1.ibmi7.3.ppc64.rpm
+rpm -i libopenssl3-3.0.12-2.ibmi7.3.ppc64.rpm
+rpm -i libuuid1-2.35.1-3.ibmi7.2.ppc64.rpm
+rpm -i python39-3.9.18-1.ibmi7.3.ppc64.rpm
 
+rpm -i nodejs20-20.11.1-1.ibmi7.3.ppc64.rpm
 ### before unixODBC-2.3.9-1.ppc64
 rpm -i grep-gnu-3.0-2.ibmi7.2.ppc64.rpm
 rpm -i libtool-2.4.6-5.ibmi7.2.ppc64.rpm
 rpm -i libodbc2-2.3.9-1.ibmi7.2.ppc64.rpm
 
 rpm -i unixODBC-2.3.9-1.ppc64.rpm
+rpm -i ibm-iaccess-1.1.0.26-0.ibmi7.3.ppc64.rpm   
 ```
 
 ## Install PM2
