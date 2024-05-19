@@ -32,16 +32,16 @@ title: MERN Stack
 
 | ตอนที่ | หัวข้อ                          | วีดีโอ |
 | :----: | ------------------------------- | :----: |
-|   1    | ติดตั้ง Git                     |   []   |
-|   2    | ติดตั้ง Node JS                 |   []   |
-|   3    | สร้าง Project React (client)    |   []   |
-|   4    | ทำงานกับ bootstrap 5            |   []   |
-|   5    | ติดตั้ง package(Server)         |   []   |
-|   6    | Node JS and Express (Server)    |   []   |
-|   7    | MongoDB Atlas                   |   []   |
-|   8    | เชื่อมต่อฐานข้อมูลด้วย Mongoose |   []   |
-|   9    | การสร้าง Route                  |   []   |
-|   10   | การสร้าง controller             |   []   |
+|   1    | ติดตั้ง Git                     |   [https://youtu.be/pl02UmvMikY]   |
+|   2    | ติดตั้ง Node JS                 |   [https://youtu.be/w2_6tqYQ2jY]   |
+|   3    | สร้าง Project React (client)    |   [https://youtu.be/e9Q33IXuUfE]   |
+|   4    | ทำงานกับ bootstrap 5            |   [https://youtu.be/AMuTLw-mZME]   |
+|   5    | ติดตั้ง package(Server)         |   [https://youtu.be/GAkoVk7l2p0]   |
+|   6    | Node JS and Express (Server)    |   [https://youtu.be/Tg8ElG9R1r0]   |
+|   7    | MongoDB Atlas                   |   [https://youtu.be/faAfKxm907Y]   |
+|   8    | เชื่อมต่อฐานข้อมูลด้วย Mongoose |   [https://youtu.be/JVnyKjvyzzw]   |
+|   9    | การสร้าง Route                  |   [https://youtu.be/IT7lnIDfsVo]   |
+|   10   | การสร้าง controller             |   [https://youtu.be/a8D6Rby1rSE]   |
 
 ### จัดการฐานข้อมูลและตั้งค่า API
 
