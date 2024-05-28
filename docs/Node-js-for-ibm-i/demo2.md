@@ -2,6 +2,7 @@
 sidebar_position: 5
 title: Demo for Aeon
 ---
+## nodeJS
 
 ```javascript title="package.json"
 {
@@ -31,7 +32,7 @@ const cors = require("cors");
 const app = express();
 const odbc = require("odbc");
 
-const port = 9000;
+const port = 9110;
 
 //middleware
 app.use(express.json());
@@ -60,3 +61,41 @@ app.get("/odbc", async (req, res) => {
 app.listen(port, () => console.log(`Run Server in port ${port}`));
 
 ```
+
+
+## React
+
+```
+npm create vite@latest demo_aeon -- --template react
+cd demo_aeon
+npm i
+
+npm run dev
+mkdir demo_aeon
+scp -r * max@172.16.1.240:/www/apachedft/htdocs/demo_aeon
+```
+
+```javascript title="vite.config.js"
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  //for prod.
+  base: "/demo_aeon/",
+  //for dev.
+  //base: '/',
+  build: {
+    outDir: 'dist',
+    sourcemap: true,
+    emptyOutDir: true,
+    rollupOptions: {
+      entrtFileNames: '[name].js',
+      chunkFileNames: '[name].js',
+      assetFileNames: '[name].[ext]',
+    },
+  },
+})
+```
+
