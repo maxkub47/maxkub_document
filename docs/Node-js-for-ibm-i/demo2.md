@@ -3,7 +3,7 @@ sidebar_position: 5
 title: Demo for Aeon
 ---
 
-```bash title="package.json"
+```javascript title="package.json"
 {
   "name": "demo_node_aeon",
   "version": "1.0.0",
@@ -24,7 +24,7 @@ title: Demo for Aeon
 
 ```
 
-```bash title="Server.js"
+```javascript title="Server.js"
 const express = require("express");
 const morgan = require("morgan");
 const cors = require("cors");
