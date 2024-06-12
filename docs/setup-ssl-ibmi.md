@@ -103,3 +103,11 @@ http {
     }
 }
 ```
+- command for nginx
+
+```
+nginx               //run
+nginx -s stop       //stop
+nginx -s reload     //restart
+nginx -t            //test config
+```
