@@ -9,6 +9,7 @@ title: Setup SSL on IBMI
 :::warning
 CN and DNS ตรง subjectaltname ต้องตรงกัน
 :::
+
 ```bash title="req.cnf"
 [req]
 distinguished_name = req_distinguished_name
@@ -26,24 +27,29 @@ subjectAltName = DNS:edupgmr
 basicConstraints     = CA:TRUE
 subjectKeyIdentifier = hash
 ```
+
 - Input Command to Create key
+
 ```bash
 openssl req -x509 -sha256 -newkey rsa:2048 -keyout cert.key -out cert.crt -days 365 -nodes -config req.cnf
 ```
 
 - compose .key and .crt to .pfx
+
 :::warning
 password '12345' (use in create digital cert)
 :::
 
-```bash 
+```bash
 openssl pkcs12 -export -nodes -out edupgmr.pfx -inkey cert.key -in cert.crt
 ```
 
 ## Mapping cert to Application
+
 - Mapping cert to application server [Click](../docs/web-service/mapping-ssl.md)
 
 ## Mapping cert to Node.js
+
 - Mapping cert to Node.js
 
 ```javascript
@@ -58,6 +64,7 @@ const sslServer = https.createServer({
 
   sslServer.listen(9107 , () => console.log(`Run SSL Server in port 9107`))
 ```
+
 ## Setup in NGINX
 
 ```javascript
@@ -103,9 +110,10 @@ http {
     }
 }
 ```
+
 - command for nginx
 
-```
+```bash
 nginx               //run
 nginx -s stop       //stop
 nginx -s reload     //restart
