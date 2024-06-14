@@ -2,6 +2,7 @@
 sidebar_position: 15
 title: Setup SSL on IBMI
 ---
+
 ## Generate Local Cert
 
 - create file .cnf
@@ -57,12 +58,15 @@ const https = require('https')
 const path = require('path')
 const fs = require('fs')
 
-const sslServer = https.createServer({
-  key: fs.readFileSync(path.join('/www/phpcom/cert','cert.key')),
-  cert : fs.readFileSync(path.join('/www/phpcom/cert','cert.crt'))
-}, app)
+const sslServer = https.createServer(
+  {
+    key: fs.readFileSync(path.join('/www/phpcom/cert', 'cert.key')),
+    cert: fs.readFileSync(path.join('/www/phpcom/cert', 'cert.crt')),
+  },
+  app
+)
 
-  sslServer.listen(9107 , () => console.log(`Run SSL Server in port 9107`))
+sslServer.listen(9107, () => console.log(`Run SSL Server in port 9107`))
 ```
 
 ## Setup in NGINX
@@ -80,16 +84,16 @@ http {
   #   }
   # }
   # upstream node_servers {
-  #   server 172.16.1.240:9106;  
+  #   server 172.16.1.240:9106;
   # }
   server {
 
         location / {
-          root  "/qopensys/etc/nginx/html/demo_aeon";  
+          root  "/qopensys/etc/nginx/html/demo_aeon";
           index  index.html index.htm;
           include /qopensys/etc/nginx/mime.types;
         }
-        
+
         location /api {
           proxy_pass http://172.16.1.240:9106/;
           #proxy_pass https://172.16.1.240:9107/;
@@ -106,7 +110,7 @@ http {
         ssl_prefer_server_ciphers  on;
 
         server_name edupgmr EDUPGMR;
-        # root  "/QOpenSys/etc/nginx/html/";  
+        # root  "/QOpenSys/etc/nginx/html/";
     }
 }
 ```
