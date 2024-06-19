@@ -19,7 +19,7 @@ VPN Program [Download](https://www.leagsoft.com/doc/article/103197.html)
 
 > `Link :` https://10.200.122.207 <br/> `User :` maxkub <br/>`Pass :` P@ssw0rd
 >> `Portainer`  <br/>`Link :` https://10.200.122.207:9443 <br/> `User :` maxkub <br/>`Pass :` P@ssw0rd_portainer <br/><br/>
->> `Wordpress`  <br/>`Link :` https://10.200.122.207:32768 <br/> `User :` maxkub <br/>`Pass :` P@ssw0rd_wordpres
+>> `Wordpress`  <br/>`Link :` http://10.200.122.207:32768 <br/> `User :` maxkub <br/>`Pass :` P@ssw0rd_wordpres
 
 #### AS400 : EduWeb
 

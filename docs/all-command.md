@@ -5,6 +5,11 @@ title: Command Cheat Sheet
 
 ## Already Use
 
+ลบไฟล์ใน IFS ไม่ได้
+``` 
+CHGATR OBJ('/bow/movie/tt') ATR(*READONLY) VALUE(*NO)
+```
+
 เรียกใช้ Icon Transfer ด้วย SH
 
 ```VBA

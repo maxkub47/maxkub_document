@@ -144,6 +144,9 @@ kill [PID]
 yum list
 yum-config-manager
 yum-config-manager --add-repo https://public.dhe.ibm.com/software/ibmi/products/pase/rpms/repo/
+rpm -qp nodejs20-20.11.1-1.ibmi7.3.ppc64.rpm --requires
+rpm -qp nodejs20-20.11.1-1.ibmi7.3.ppc64.rpm --provides
+yum deplist nodejs20
 ```
 
 ## Error Resovle DNS
@@ -168,6 +171,9 @@ Option 10 by command "ADDTCPHTE INTNETADR('129.35.224.112') HOSTNAME((public.dhe
 |   1    | Metro : Install Node on ibm i Via Offline          | [https://youtu.be/4QV_ifBgXuc] |
 |   2    | TCCC : Install Node and pyghon on ibm i Via Online | [https://youtu.be/n32ljoQEblI] |
 |   3    | Aeon : Install Node  Via Offline | [https://youtu.be/XtUgxoVRQT8] |
+|   4    | MIS : Install PHP Via Online | [https://youtu.be/ggn2Qxwn5JY] |
+
+
 
 ## Install PHPCOM
 
@@ -185,8 +191,20 @@ yum-config-manager --add-repo https://repo.seidengroup.com/repo/stable/seiden_st
 php-bcmath
 php-bz2
 php-calendar
-php-cli
 php-common
+browscap
+libargon2 
+libpcre2-8-0
+php-cli
+php-iconv
+libicu69
+php-intl
+libonig5
+php-mbstring
+php-openssl
+php-phar
+libzip5
+php-zip
 php-composer
 php-ctype
 php-curl
@@ -195,44 +213,66 @@ php-exif
 php-fileinfo
 php-fpm
 php-ftp
+libX11-data
+libXau6
+libXdmcp6
+libxcb1
+libX11-6
+libXpm4
+libfreetype6
+libfontconfig1
+libjpeg8
+libpng16
+libtiff5
+libwebp7
+libgd3
+libsharpyuv0
 php-gd
 php-gettext
 php-gmp
 php-ibmi
-php-iconv
+libXext6
+ImageMagick-data
+libMagickCore-7_Q16HDRI10
+libMagickWand-7_Q16HDRI10
 php-imagick
+libc-client
 php-imap
-php-intl
+libldap-2_4
 php-ldap
-php-mbstring
+libmcrypt4
 php-mcrypt
+libsnappy1
+libzstd1
 php-mongodb
+php-pdo
 php-mysqlnd
 php-odbc
 php-opcache
-php-openssl
-php-pdo
-php-pdo_dblib
+libdb400sg
+php-pdo_ibm
 php-pear
+postgresql12-libpq 
 php-pgsql
-php-phar
 php-process
 php-readline
 php-redis
 php-soap
 php-sockets
+libsodium23
 php-sodium
 php-sqlite3
 php-ssh2
+libtidy
 php-tidy
 php-tokenizer
+php-ibm_db2
+libxslt
+php-xml
+itoolkit-utils
 php-toolkit
 php-xdebug
-php-xml
 php-zendframework1
-php-zip
-php-pdo_ibm
-php-ibm_db2
 ```
 
 ### Set ภาษาไทย
