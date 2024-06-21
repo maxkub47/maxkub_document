@@ -3,17 +3,20 @@ sidebar_position: 12
 title: Command Cheat Sheet
 ---
 
-## Web 
+## Web
+
 devhint [Link](https://devhints.io/)
 
 ## Cheet Sheet PDF
+
 From Javascript + Node.js Course [Download](./assets/JavaScript_Node.js_Cheatsheet.pdf)
 From Express & MongoDB [Download](./assets/Express_CheatSheet.pdf)
 
 ## Already Use
 
 ลบไฟล์ใน IFS ไม่ได้
-``` 
+
+```c
 CHGATR OBJ('/bow/movie/tt') ATR(*READONLY) VALUE(*NO)
 ```
 
